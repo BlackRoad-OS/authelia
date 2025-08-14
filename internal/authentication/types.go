@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"net/mail"
 	"net/url"
+	"time"
 
 	"github.com/go-jose/go-jose/v4/json"
 	"golang.org/x/text/language"
@@ -18,8 +19,7 @@ type UserDetails struct {
 }
 
 type FieldMetadata struct {
-	Required    bool   `json:"required"`
-	DisplayName string `json:"displayName"`
+	DisplayName string `json:"display_name"`
 	Description string `json:"description"`
 	Type        string `json:"type"`
 	MaxLength   int    `json:"maxLength,omitempty"`
@@ -84,6 +84,14 @@ type UserDetailsExtended struct {
 	Password      string   `json:"-"`
 	CommonName    string   `json:"cn,omitempty"`
 	ObjectClasses []string `json:"object_classes,omitempty"`
+
+	LastLoggedIn       *time.Time `json:"last_logged_in,omitempty"`
+	LastPasswordChange *time.Time `json:"last_password_change,omitempty"`
+	UserCreatedAt      *time.Time `json:"user_created_at,omitempty"`
+	Method             string     `json:"method,omitempty"`
+	HasTOTP            bool       `json:"has_totp,omitempty"`
+	HasWebAuthn        bool       `json:"has_webauthn,omitempty"`
+	HasDuo             bool       `json:"has_duo,omitempty"`
 }
 
 // UnmarshalJSON allows the "password" field to be unmarshalled but not included when the struct is marshalled. Effectively making the password ingest-only.
@@ -102,6 +110,7 @@ func (d *UserDetailsExtended) UnmarshalJSON(data []byte) error {
 	}
 
 	d.Password = aux.Password
+
 	return nil
 }
 
@@ -221,7 +230,7 @@ type UserDetailsExtendedBuilder struct {
 	data *UserDetailsExtended
 }
 
-// NewUser creates a new user builder with username and password
+// NewUser creates a new user builder with username and password.
 func NewUser(username, password string) *UserDetailsExtendedBuilder {
 	return &UserDetailsExtendedBuilder{
 		data: &UserDetailsExtended{
@@ -237,22 +246,22 @@ func NewUser(username, password string) *UserDetailsExtendedBuilder {
 }
 
 func (b *UserDetailsExtendedBuilder) WithDisplayName(name string) *UserDetailsExtendedBuilder {
-	b.data.UserDetails.DisplayName = name
+	b.data.DisplayName = name
 	return b
 }
 
 func (b *UserDetailsExtendedBuilder) WithEmail(email string) *UserDetailsExtendedBuilder {
-	b.data.UserDetails.Emails = []string{email}
+	b.data.Emails = []string{email}
 	return b
 }
 
 func (b *UserDetailsExtendedBuilder) WithEmails(emails []string) *UserDetailsExtendedBuilder {
-	b.data.UserDetails.Emails = emails
+	b.data.Emails = emails
 	return b
 }
 
 func (b *UserDetailsExtendedBuilder) WithGroups(groups []string) *UserDetailsExtendedBuilder {
-	b.data.UserDetails.Groups = groups
+	b.data.Groups = groups
 	return b
 }
 
@@ -307,6 +316,7 @@ func (b *UserDetailsExtendedBuilder) WithProfile(profileURL string) *UserDetails
 			b.data.Profile = uri
 		}
 	}
+
 	return b
 }
 
@@ -316,6 +326,7 @@ func (b *UserDetailsExtendedBuilder) WithPicture(pictureURL string) *UserDetails
 			b.data.Picture = uri
 		}
 	}
+
 	return b
 }
 
@@ -325,6 +336,7 @@ func (b *UserDetailsExtendedBuilder) WithWebsite(websiteURL string) *UserDetails
 			b.data.Website = uri
 		}
 	}
+
 	return b
 }
 
@@ -334,6 +346,7 @@ func (b *UserDetailsExtendedBuilder) WithLocale(locale string) *UserDetailsExten
 			b.data.Locale = &tag
 		}
 	}
+
 	return b
 }
 
@@ -345,6 +358,7 @@ func (b *UserDetailsExtendedBuilder) WithAddress(street, locality, region, posta
 		PostalCode:    postal,
 		Country:       country,
 	}
+
 	return b
 }
 
@@ -352,7 +366,9 @@ func (b *UserDetailsExtendedBuilder) WithExtra(key string, value any) *UserDetai
 	if b.data.Extra == nil {
 		b.data.Extra = make(map[string]any)
 	}
+
 	b.data.Extra[key] = value
+
 	return b
 }
 

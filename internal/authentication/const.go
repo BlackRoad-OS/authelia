@@ -54,9 +54,10 @@ const (
 	ldapAttributeUnicodePwd   = "unicodePwd"
 	ldapAttributeUserPassword = "userPassword"
 
-	ldapAttrMail       = "mail"
-	ldapAttrCommonName = "cn"
-	ldapAttrMemberOf   = "memberOf"
+	ldapAttrMail        = "mail"
+	ldapAttrCommonName  = "cn"
+	ldapAttrMemberOf    = "memberOf"
+	ldapAttrObjectClass = "objectClass"
 )
 
 const (
@@ -115,7 +116,8 @@ var (
 	ErrPasswordEmpty = errors.New("your password cannot be blank")
 
 	ErrAuthenticationFailed = errors.New("authentication failed")
-	// ErrIncorrectPassword is returned when the new password is the same as the existing password.
+
+	// ErrPasswordReuse is returned when the new password is the same as the existing password.
 	ErrPasswordReuse = errors.New("you cannot reuse your old password")
 
 	// ErrEmptyInput is returned when an empty string or nil value is used to set a value.
