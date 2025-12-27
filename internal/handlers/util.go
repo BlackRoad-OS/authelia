@@ -103,7 +103,6 @@ func redactEmail(email string) string {
 }
 
 func MergeUserDetailsWithInfoMany(userDetails []authentication.UserDetailsExtended, userInfoList []model.UserInfo) []authentication.UserDetailsExtended {
-	// Create a map for quick lookup of UserInfo by username.
 	userInfoMap := make(map[string]model.UserInfo)
 	for _, info := range userInfoList {
 		userInfoMap[info.Username] = info
@@ -266,13 +265,6 @@ func GenerateUserChangeLog(original *authentication.UserDetailsExtended, changes
 	checkURL("profile", original.Profile, changes.Profile)
 	checkURL("picture", original.Picture, changes.Picture)
 	checkURL("website", original.Website, changes.Website)
-
-	if !reflect.DeepEqual(original.ObjectClasses, changes.ObjectClasses) {
-		changeLog["object_classes"] = map[string]interface{}{
-			"from": original.ObjectClasses,
-			"to":   changes.ObjectClasses,
-		}
-	}
 
 	if !reflect.DeepEqual(original.Extra, changes.Extra) {
 		changeLog["extra"] = map[string]interface{}{

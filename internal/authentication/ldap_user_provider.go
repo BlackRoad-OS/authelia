@@ -818,9 +818,6 @@ func (p *LDAPUserProvider) getUserProfileResultToProfileExtended(username string
 }
 
 func (p *LDAPUserProvider) getUserGroups(client ldap.Client, username string, profile *ldapUserProfile) (groups []string, err error) {
-	filter := p.resolveGroupsFilter(username, profile)
-	p.log.Debug(filter)
-
 	request := ldap.NewSearchRequest(
 		p.groupsBaseDN, ldap.ScopeWholeSubtree, ldap.NeverDerefAliases,
 		0, 0, false, p.resolveGroupsFilter(username, profile), p.groupsAttributes, nil,
