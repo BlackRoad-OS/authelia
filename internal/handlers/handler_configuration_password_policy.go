@@ -1,7 +1,7 @@
 package handlers
 
 import (
-	"github.com/authelia/authelia/v4/internal/middlewares"
+	"github.com/BlackRoad-OS/authelia/v4/internal/middlewares"
 )
 
 // PasswordPolicyConfigurationGET get the password policy configuration.

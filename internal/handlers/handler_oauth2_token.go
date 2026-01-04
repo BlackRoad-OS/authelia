@@ -5,8 +5,8 @@ import (
 
 	oauthelia2 "authelia.com/provider/oauth2"
 
-	"github.com/authelia/authelia/v4/internal/middlewares"
-	"github.com/authelia/authelia/v4/internal/oidc"
+	"github.com/BlackRoad-OS/authelia/v4/internal/middlewares"
+	"github.com/BlackRoad-OS/authelia/v4/internal/oidc"
 )
 
 // OAuth2TokenPOST handles POST requests to the OpenID Connect 1.0 Token endpoint.

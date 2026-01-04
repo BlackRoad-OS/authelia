@@ -4,7 +4,7 @@ import (
 	"github.com/knadh/koanf/v2"
 	"github.com/spf13/pflag"
 
-	"github.com/authelia/authelia/v4/internal/configuration/schema"
+	"github.com/BlackRoad-OS/authelia/v4/internal/configuration/schema"
 )
 
 // Source is an abstract representation of a configuration configuration.Source implementation.

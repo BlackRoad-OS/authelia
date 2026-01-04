@@ -8,8 +8,8 @@ import (
 	"github.com/google/uuid"
 	"github.com/valyala/fasthttp"
 
-	"github.com/authelia/authelia/v4/internal/middlewares"
-	"github.com/authelia/authelia/v4/internal/oidc"
+	"github.com/BlackRoad-OS/authelia/v4/internal/middlewares"
+	"github.com/BlackRoad-OS/authelia/v4/internal/oidc"
 )
 
 // WellKnownOpenIDConfigurationGET handles requests to a .well-known endpoint (RFC5785) which returns the

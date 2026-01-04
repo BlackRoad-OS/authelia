@@ -12,7 +12,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/valyala/fasthttp"
 
-	"github.com/authelia/authelia/v4/internal/authorization"
+	"github.com/BlackRoad-OS/authelia/v4/internal/authorization"
 )
 
 func TestGetSubjectAndObjectFromFlags(t *testing.T) {

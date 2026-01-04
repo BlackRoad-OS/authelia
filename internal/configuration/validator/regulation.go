@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/authelia/authelia/v4/internal/configuration/schema"
+	"github.com/BlackRoad-OS/authelia/v4/internal/configuration/schema"
 )
 
 // ValidateRegulation validates and update regulator configuration.

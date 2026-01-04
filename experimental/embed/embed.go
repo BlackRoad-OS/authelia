@@ -3,7 +3,7 @@ package embed
 import (
 	"fmt"
 
-	"github.com/authelia/authelia/v4/internal/service"
+	"github.com/BlackRoad-OS/authelia/v4/internal/service"
 )
 
 func ProvidersStartupCheck(ctx Context, log bool) (err error) {

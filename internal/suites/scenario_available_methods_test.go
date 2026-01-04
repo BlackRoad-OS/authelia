@@ -5,7 +5,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/authelia/authelia/v4/internal/utils"
+	"github.com/BlackRoad-OS/authelia/v4/internal/utils"
 )
 
 type AvailableMethodsScenario struct {

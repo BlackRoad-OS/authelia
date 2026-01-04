@@ -8,7 +8,7 @@ import (
 	"github.com/valyala/fasthttp"
 	"golang.org/x/time/rate"
 
-	"github.com/authelia/authelia/v4/internal/configuration/schema"
+	"github.com/BlackRoad-OS/authelia/v4/internal/configuration/schema"
 )
 
 // RateLimitBucket describes an implementation of a bucket which can be leveraged for rate limiting.

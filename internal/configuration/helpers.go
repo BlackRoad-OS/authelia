@@ -4,7 +4,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/authelia/authelia/v4/internal/utils"
+	"github.com/BlackRoad-OS/authelia/v4/internal/utils"
 )
 
 func getEnvConfigMap(keys []string, prefix, delimiter string, ds map[string]Deprecation, dms []MultiKeyMappedDeprecation) (keyMap map[string]string, ignoredKeys []string) {

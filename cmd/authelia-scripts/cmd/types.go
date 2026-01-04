@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/authelia/authelia/v4/internal/utils"
+	"github.com/BlackRoad-OS/authelia/v4/internal/utils"
 )
 
 // HostEntry represents an entry in /etc/hosts.

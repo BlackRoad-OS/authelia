@@ -9,13 +9,13 @@ import (
 	"authelia.com/provider/oauth2/x/errorsx"
 	"github.com/google/uuid"
 
-	"github.com/authelia/authelia/v4/internal/authentication"
-	"github.com/authelia/authelia/v4/internal/authorization"
-	"github.com/authelia/authelia/v4/internal/logging"
-	"github.com/authelia/authelia/v4/internal/middlewares"
-	"github.com/authelia/authelia/v4/internal/model"
-	"github.com/authelia/authelia/v4/internal/oidc"
-	"github.com/authelia/authelia/v4/internal/session"
+	"github.com/BlackRoad-OS/authelia/v4/internal/authentication"
+	"github.com/BlackRoad-OS/authelia/v4/internal/authorization"
+	"github.com/BlackRoad-OS/authelia/v4/internal/logging"
+	"github.com/BlackRoad-OS/authelia/v4/internal/middlewares"
+	"github.com/BlackRoad-OS/authelia/v4/internal/model"
+	"github.com/BlackRoad-OS/authelia/v4/internal/oidc"
+	"github.com/BlackRoad-OS/authelia/v4/internal/session"
 )
 
 // OAuth2DeviceAuthorizationPOST handles the Device Code Flow of the the Device Authorization Flow.

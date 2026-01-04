@@ -4,8 +4,8 @@ import (
 	"errors"
 	"time"
 
-	"github.com/authelia/authelia/v4/internal/authentication"
-	"github.com/authelia/authelia/v4/internal/authorization"
+	"github.com/BlackRoad-OS/authelia/v4/internal/authentication"
+	"github.com/BlackRoad-OS/authelia/v4/internal/authorization"
 )
 
 // NewDefaultUserSession create a default user session.

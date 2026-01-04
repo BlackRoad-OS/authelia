@@ -38,7 +38,7 @@ Examples of unacceptable behavior include:
 
 ### Focused on Technology
 
-Authelia is focused solely on the technology itself. We aim to remain completely
+BlackRoad OS Authentication Server is focused solely on the technology itself. We aim to remain completely
 neutral in all ideological, political, and other controversial matters. We
 consider this a professional standard within the community. This aligns with our
 second guiding standard; being respectful of differing opinions, viewpoints, and

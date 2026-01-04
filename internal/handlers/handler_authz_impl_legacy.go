@@ -6,8 +6,8 @@ import (
 
 	"github.com/valyala/fasthttp"
 
-	"github.com/authelia/authelia/v4/internal/authorization"
-	"github.com/authelia/authelia/v4/internal/middlewares"
+	"github.com/BlackRoad-OS/authelia/v4/internal/authorization"
+	"github.com/BlackRoad-OS/authelia/v4/internal/middlewares"
 )
 
 func handleAuthzGetObjectLegacy(ctx *middlewares.AutheliaCtx) (object authorization.Object, err error) {

@@ -6,7 +6,7 @@ import (
 	"github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/authelia/authelia/v4/internal/logging"
+	"github.com/BlackRoad-OS/authelia/v4/internal/logging"
 )
 
 func TestContext(t *testing.T) {

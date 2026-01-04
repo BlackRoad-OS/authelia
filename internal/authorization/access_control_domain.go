@@ -5,7 +5,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/authelia/authelia/v4/internal/utils"
+	"github.com/BlackRoad-OS/authelia/v4/internal/utils"
 )
 
 // NewAccessControlDomain creates a new SubjectObjectMatcher that matches the domain as a basic string.

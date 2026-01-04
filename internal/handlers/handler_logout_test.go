@@ -7,7 +7,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/authelia/authelia/v4/internal/mocks"
+	"github.com/BlackRoad-OS/authelia/v4/internal/mocks"
 )
 
 type LogoutSuite struct {

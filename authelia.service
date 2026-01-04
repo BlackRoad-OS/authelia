@@ -1,6 +1,6 @@
 [Unit]
-Description=Authelia authentication and authorization server
-Documentation=https://www.authelia.com
+Description=BlackRoad OS Authentication Server
+Documentation=https://github.com/BlackRoad-OS/authelia
 After=multi-user.target
 
 [Service]

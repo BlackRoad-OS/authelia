@@ -10,7 +10,7 @@ import (
 	"github.com/google/uuid"
 	"github.com/mohae/deepcopy"
 
-	"github.com/authelia/authelia/v4/internal/model"
+	"github.com/BlackRoad-OS/authelia/v4/internal/model"
 )
 
 // NewSession creates a new empty OpenIDSession struct with the requested at value being time.Now().

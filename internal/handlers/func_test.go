@@ -9,7 +9,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/authelia/authelia/v4/internal/middlewares"
+	"github.com/BlackRoad-OS/authelia/v4/internal/middlewares"
 )
 
 func AssertLogEntryMessageAndError(t *testing.T, entry *logrus.Entry, message, err any) {

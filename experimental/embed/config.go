@@ -3,9 +3,9 @@ package embed
 import (
 	"fmt"
 
-	"github.com/authelia/authelia/v4/internal/configuration"
-	"github.com/authelia/authelia/v4/internal/configuration/schema"
-	"github.com/authelia/authelia/v4/internal/configuration/validator"
+	"github.com/BlackRoad-OS/authelia/v4/internal/configuration"
+	"github.com/BlackRoad-OS/authelia/v4/internal/configuration/schema"
+	"github.com/BlackRoad-OS/authelia/v4/internal/configuration/validator"
 )
 
 // NewConfiguration builds a new configuration given a list of paths and filters. The filters can either be nil or

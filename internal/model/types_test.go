@@ -8,8 +8,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/authelia/authelia/v4/internal/clock"
-	"github.com/authelia/authelia/v4/internal/random"
+	"github.com/BlackRoad-OS/authelia/v4/internal/clock"
+	"github.com/BlackRoad-OS/authelia/v4/internal/random"
 )
 
 func TestDatabaseModelTypeIP(t *testing.T) {

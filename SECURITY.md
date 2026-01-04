@@ -2,16 +2,16 @@
 
 ## Prologue
 
-The __Authelia__ team takes security very seriously. Because __Authelia__ is intended as a security product a lot of
+The __BlackRoad OS Authentication Server__ team takes security very seriously. Because __BlackRoad OS Authentication Server__ is intended as a security product a lot of
 decisions are made with security being the priority and we always aim to implement security by design.
 
 ## Coordinated vulnerability disclosure
 
-__Authelia__ follows the [coordinated vulnerability disclosure] model when dealing with security vulnerabilities. This
-was previously known as responsible disclosure. We strongly urge anyone reporting vulnerabilities to __Authelia__ or any
+__BlackRoad OS Authentication Server__ follows the [coordinated vulnerability disclosure] model when dealing with security vulnerabilities. This
+was previously known as responsible disclosure. We strongly urge anyone reporting vulnerabilities to __BlackRoad OS Authentication Server__ or any
 other project to follow this model as it is considered as a best practice by many in the security industry.
 
-If you believe you have identified a security vulnerability or security related bug with __Authelia__ please make every
+If you believe you have identified a security vulnerability or security related bug with __BlackRoad OS Authentication Server__ please make every
 effort to contact us privately using one of the [contact options](#contact-options) below. Please do not open an issue,
 do not notify us in public, and do not disclose this issue to third parties.
 
@@ -19,7 +19,7 @@ Using this process helps ensure that users affected have an avenue to fixing the
 made public as possible. This mitigates the increasing the attack surface (via improving attacker knowledge) for
 diligent administrators simply via the act of disclosing the security issue.
 
-For more information about [security](https://www.authelia.com/security/) related matters, please read
+This project is a fork of Authelia by BlackRoad OS, Inc. For more information about [security](https://www.authelia.com/security/) related matters in the original Authelia project, please read
 [the documentation](https://www.authelia.com/security/).
 
 ## Contact Options

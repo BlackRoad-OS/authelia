@@ -205,7 +205,7 @@ func (rs *RodSession) collectScreenshot(err error, page *rod.Page) {
 
 		pc, _, _, _ := runtime.Caller(2)
 		fn := runtime.FuncForPC(pc)
-		p := "github.com/authelia/authelia/v4/internal/suites."
+		p := "github.com/BlackRoad-OS/authelia/v4/internal/suites."
 		r := strings.NewReplacer(p, "", "(", "", ")", "", "*", "", ".", "-")
 
 		page.MustScreenshotFullPage(fmt.Sprintf("%s/%s.jpg", path, r.Replace(fn.Name())))

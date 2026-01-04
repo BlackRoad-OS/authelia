@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/authelia/authelia/v4/internal/logging"
-	"github.com/authelia/authelia/v4/internal/model"
-	"github.com/authelia/authelia/v4/internal/utils"
+	"github.com/BlackRoad-OS/authelia/v4/internal/logging"
+	"github.com/BlackRoad-OS/authelia/v4/internal/model"
+	"github.com/BlackRoad-OS/authelia/v4/internal/utils"
 )
 
 func (p *Providers) StartupChecks(ctx Context, log bool) (err error) {

@@ -3,7 +3,7 @@ package ntp
 import (
 	"github.com/sirupsen/logrus"
 
-	"github.com/authelia/authelia/v4/internal/configuration/schema"
+	"github.com/BlackRoad-OS/authelia/v4/internal/configuration/schema"
 )
 
 // Provider type is the NTP provider.

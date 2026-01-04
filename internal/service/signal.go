@@ -7,7 +7,7 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/authelia/authelia/v4/internal/logging"
+	"github.com/BlackRoad-OS/authelia/v4/internal/logging"
 )
 
 func ProvisionLoggingSignal(ctx Context) (service Provider, err error) {

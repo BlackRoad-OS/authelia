@@ -1,8 +1,8 @@
 package handlers
 
 import (
-	"github.com/authelia/authelia/v4/internal/middlewares"
-	"github.com/authelia/authelia/v4/internal/session"
+	"github.com/BlackRoad-OS/authelia/v4/internal/middlewares"
+	"github.com/BlackRoad-OS/authelia/v4/internal/session"
 )
 
 // StateGET is the handler serving the user state.

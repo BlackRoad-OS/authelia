@@ -16,14 +16,14 @@ import (
 	"github.com/valyala/fasthttp"
 	"go.uber.org/mock/gomock"
 
-	"github.com/authelia/authelia/v4/internal/authorization"
-	"github.com/authelia/authelia/v4/internal/clock"
-	"github.com/authelia/authelia/v4/internal/configuration/schema"
-	"github.com/authelia/authelia/v4/internal/middlewares"
-	"github.com/authelia/authelia/v4/internal/random"
-	"github.com/authelia/authelia/v4/internal/regulation"
-	"github.com/authelia/authelia/v4/internal/session"
-	"github.com/authelia/authelia/v4/internal/templates"
+	"github.com/BlackRoad-OS/authelia/v4/internal/authorization"
+	"github.com/BlackRoad-OS/authelia/v4/internal/clock"
+	"github.com/BlackRoad-OS/authelia/v4/internal/configuration/schema"
+	"github.com/BlackRoad-OS/authelia/v4/internal/middlewares"
+	"github.com/BlackRoad-OS/authelia/v4/internal/random"
+	"github.com/BlackRoad-OS/authelia/v4/internal/regulation"
+	"github.com/BlackRoad-OS/authelia/v4/internal/session"
+	"github.com/BlackRoad-OS/authelia/v4/internal/templates"
 )
 
 // MockAutheliaCtx a mock of AutheliaCtx.

@@ -1,6 +1,6 @@
 {
-  "short_name": "Authelia WebApp",
-  "name": "Authelia Web Application",
+  "short_name": "BlackRoad OS WebApp",
+  "name": "BlackRoad OS Authentication Application",
   "icons": [
     {
       "src": "favicon.ico",

@@ -146,7 +146,7 @@ const (
 )
 
 const (
-	goModuleBase = "github.com/authelia/authelia/v4"
+	goModuleBase = "github.com/BlackRoad-OS/authelia/v4"
 )
 
 const (

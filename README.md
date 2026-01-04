@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://www.authelia.com/images/authelia-title.png" width="350" title="Authelia">
+  <h1>BlackRoad OS Authentication Server</h1>
 </p>
 
   [![Build](https://img.shields.io/buildkite/d6543d3ece3433f46dbe5fd9fcfaf1f68a6dbc48eb1048bc22/master?logo=buildkite&style=flat-square&color=brightgreen)](https://buildkite.com/authelia/authelia)
@@ -19,11 +19,11 @@
   [![Discord](https://img.shields.io/discord/707844280412012608?label=discord&logo=discord&style=flat-square&color=blue)](https://discord.authelia.com)
   [![Matrix](https://img.shields.io/matrix/authelia-support:matrix.org?label=matrix&logo=matrix&style=flat-square&color=blue)](https://matrix.to/#/#support:authelia.com)
 
-**Authelia** is an open-source authentication and authorization server providing two-factor authentication and single
+**BlackRoad OS Authentication Server** (based on Authelia) is an open-source authentication and authorization server providing two-factor authentication and single
 sign-on (SSO) for your applications via a web portal. It acts as a companion for [reverse proxies](#proxy-support) by
 allowing, denying, or redirecting requests.
 
-Documentation is available at [https://www.authelia.com/](https://www.authelia.com/).
+Original Authelia documentation is available at [https://www.authelia.com/](https://www.authelia.com/).
 
 The following is a simple diagram of the architecture:
 
@@ -31,11 +31,7 @@ The following is a simple diagram of the architecture:
   <img src="https://www.authelia.com/images/archi.png"/>
 </p>
 
-**Authelia** can be installed as a standalone service from the [AUR](https://aur.archlinux.org/packages/authelia/),
-[APT](https://apt.authelia.com/stable/debian/packages/authelia/),
-[FreeBSD Ports](https://svnweb.freebsd.org/ports/head/www/authelia/), or using a
-[static binary](https://github.com/authelia/authelia/releases/latest),
-[.deb package](https://github.com/authelia/authelia/releases/latest), as a container on [Docker] or [Kubernetes].
+**BlackRoad OS Authentication Server** can be installed as a container on [Docker] or [Kubernetes], or built from source.
 
 
 Deployment can be orchestrated via the Helm [Chart](https://charts.authelia.com) (beta) leveraging ingress controllers
@@ -46,7 +42,7 @@ and ingress configurations.
   <img src="https://www.authelia.com/images/logos/docker.logo.png" width="100">
 </p>
 
-Here is what Authelia's portal looks like:
+Here is what BlackRoad OS Authentication Server's portal looks like:
 
 <p align="center">
     <picture>

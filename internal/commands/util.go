@@ -15,10 +15,10 @@ import (
 	"go.yaml.in/yaml/v4"
 	"golang.org/x/term"
 
-	"github.com/authelia/authelia/v4/internal/configuration"
-	"github.com/authelia/authelia/v4/internal/model"
-	"github.com/authelia/authelia/v4/internal/random"
-	"github.com/authelia/authelia/v4/internal/utils"
+	"github.com/BlackRoad-OS/authelia/v4/internal/configuration"
+	"github.com/BlackRoad-OS/authelia/v4/internal/model"
+	"github.com/BlackRoad-OS/authelia/v4/internal/random"
+	"github.com/BlackRoad-OS/authelia/v4/internal/utils"
 )
 
 func flagsGetUserIdentifiersGenerateOptions(flags *pflag.FlagSet) (users, services, sectors []string, err error) {

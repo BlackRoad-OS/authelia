@@ -3,8 +3,8 @@ package provider
 import (
 	"crypto/x509"
 
-	"github.com/authelia/authelia/v4/internal/authentication"
-	"github.com/authelia/authelia/v4/internal/configuration/schema"
+	"github.com/BlackRoad-OS/authelia/v4/internal/authentication"
+	"github.com/BlackRoad-OS/authelia/v4/internal/configuration/schema"
 )
 
 // NewAuthenticationFile directly instantiates a new authentication.UserProvider using a *authentication.FileUserProvider.

@@ -14,8 +14,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.yaml.in/yaml/v4"
 
-	"github.com/authelia/authelia/v4/internal/mocks"
-	"github.com/authelia/authelia/v4/internal/model"
+	"github.com/BlackRoad-OS/authelia/v4/internal/mocks"
+	"github.com/BlackRoad-OS/authelia/v4/internal/model"
 )
 
 func TestWebAuthnMisc(t *testing.T) {

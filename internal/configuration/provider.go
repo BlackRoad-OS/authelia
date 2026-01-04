@@ -7,7 +7,7 @@ import (
 	"github.com/go-viper/mapstructure/v2"
 	"github.com/knadh/koanf/v2"
 
-	"github.com/authelia/authelia/v4/internal/configuration/schema"
+	"github.com/BlackRoad-OS/authelia/v4/internal/configuration/schema"
 )
 
 // Load the configuration given the provided options and sources.

@@ -9,8 +9,8 @@ import (
 	"github.com/stretchr/testify/suite"
 	"github.com/valyala/fasthttp"
 
-	"github.com/authelia/authelia/v4/internal/authentication"
-	"github.com/authelia/authelia/v4/internal/mocks"
+	"github.com/BlackRoad-OS/authelia/v4/internal/authentication"
+	"github.com/BlackRoad-OS/authelia/v4/internal/mocks"
 )
 
 type StateGetSuite struct {

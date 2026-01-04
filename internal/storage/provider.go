@@ -8,7 +8,7 @@ import (
 	"authelia.com/provider/oauth2/storage"
 	"github.com/google/uuid"
 
-	"github.com/authelia/authelia/v4/internal/model"
+	"github.com/BlackRoad-OS/authelia/v4/internal/model"
 )
 
 // Provider is an interface providing storage capabilities for persisting any kind of data related to Authelia.

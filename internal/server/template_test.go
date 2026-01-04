@@ -9,10 +9,10 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/valyala/fasthttp"
 
-	"github.com/authelia/authelia/v4/internal/configuration/schema"
-	"github.com/authelia/authelia/v4/internal/mocks"
-	"github.com/authelia/authelia/v4/internal/session"
-	"github.com/authelia/authelia/v4/internal/templates"
+	"github.com/BlackRoad-OS/authelia/v4/internal/configuration/schema"
+	"github.com/BlackRoad-OS/authelia/v4/internal/mocks"
+	"github.com/BlackRoad-OS/authelia/v4/internal/session"
+	"github.com/BlackRoad-OS/authelia/v4/internal/templates"
 )
 
 const (

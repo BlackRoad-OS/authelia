@@ -9,7 +9,7 @@ import (
 	"github.com/sirupsen/logrus"
 	"github.com/valyala/fasthttp"
 
-	"github.com/authelia/authelia/v4/internal/server"
+	"github.com/BlackRoad-OS/authelia/v4/internal/server"
 )
 
 func ProvisionServer(ctx Context) (service Provider, err error) {

@@ -3,9 +3,9 @@ package middlewares
 import (
 	"github.com/valyala/fasthttp"
 
-	"github.com/authelia/authelia/v4/internal/authentication"
-	"github.com/authelia/authelia/v4/internal/model"
-	"github.com/authelia/authelia/v4/internal/session"
+	"github.com/BlackRoad-OS/authelia/v4/internal/authentication"
+	"github.com/BlackRoad-OS/authelia/v4/internal/model"
+	"github.com/BlackRoad-OS/authelia/v4/internal/session"
 )
 
 // Require1FA check if user has enough permissions to execute the next handler.

@@ -1,8 +1,8 @@
 package embed
 
 import (
-	"github.com/authelia/authelia/v4/internal/configuration/schema"
-	"github.com/authelia/authelia/v4/internal/middlewares"
+	"github.com/BlackRoad-OS/authelia/v4/internal/configuration/schema"
+	"github.com/BlackRoad-OS/authelia/v4/internal/middlewares"
 )
 
 // Configuration is a type alias for the internal schema.Configuration type. It allows manually configuring Authelia

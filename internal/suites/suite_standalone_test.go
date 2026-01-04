@@ -14,8 +14,8 @@ import (
 	"github.com/stretchr/testify/suite"
 	"github.com/valyala/fasthttp"
 
-	"github.com/authelia/authelia/v4/internal/storage"
-	"github.com/authelia/authelia/v4/internal/utils"
+	"github.com/BlackRoad-OS/authelia/v4/internal/storage"
+	"github.com/BlackRoad-OS/authelia/v4/internal/utils"
 )
 
 type StandaloneWebDriverSuite struct {

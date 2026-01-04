@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"text/template"
 
-	"github.com/authelia/authelia/v4/internal/templates"
+	"github.com/BlackRoad-OS/authelia/v4/internal/templates"
 )
 
 //go:embed templates/*

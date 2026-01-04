@@ -10,9 +10,9 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/authelia/authelia/v4/internal/duo"
-	"github.com/authelia/authelia/v4/internal/model"
-	"github.com/authelia/authelia/v4/internal/storage"
+	"github.com/BlackRoad-OS/authelia/v4/internal/duo"
+	"github.com/BlackRoad-OS/authelia/v4/internal/model"
+	"github.com/BlackRoad-OS/authelia/v4/internal/storage"
 )
 
 type DuoPushWebDriverSuite struct {

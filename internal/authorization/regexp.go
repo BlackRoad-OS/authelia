@@ -4,7 +4,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/authelia/authelia/v4/internal/utils"
+	"github.com/BlackRoad-OS/authelia/v4/internal/utils"
 )
 
 // RegexpGroupStringSubjectMatcher matches the input string against the pattern taking into account Subexp groups.

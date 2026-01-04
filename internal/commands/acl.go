@@ -12,8 +12,8 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/valyala/fasthttp"
 
-	"github.com/authelia/authelia/v4/internal/authorization"
-	"github.com/authelia/authelia/v4/internal/configuration/validator"
+	"github.com/BlackRoad-OS/authelia/v4/internal/authorization"
+	"github.com/BlackRoad-OS/authelia/v4/internal/configuration/validator"
 )
 
 func newAccessControlCommand(ctx *CmdCtx) (cmd *cobra.Command) {

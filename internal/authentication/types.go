@@ -11,7 +11,7 @@ import (
 	"github.com/sirupsen/logrus"
 	"golang.org/x/text/language"
 
-	"github.com/authelia/authelia/v4/internal/clock"
+	"github.com/BlackRoad-OS/authelia/v4/internal/clock"
 )
 
 // UserDetails represent the details retrieved for a given user.

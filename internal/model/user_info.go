@@ -1,7 +1,7 @@
 package model
 
 import (
-	"github.com/authelia/authelia/v4/internal/utils"
+	"github.com/BlackRoad-OS/authelia/v4/internal/utils"
 )
 
 // UserInfo represents the user information required by the web UI.

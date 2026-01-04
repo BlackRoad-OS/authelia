@@ -8,7 +8,7 @@ import (
 	"authelia.com/provider/oauth2/token/jwt"
 	"github.com/go-jose/go-jose/v4"
 
-	"github.com/authelia/authelia/v4/internal/configuration/schema"
+	"github.com/BlackRoad-OS/authelia/v4/internal/configuration/schema"
 )
 
 func NewIssuer(keys []schema.JWK) (issuer *Issuer) {

@@ -5,7 +5,7 @@ import (
 
 	"github.com/jmoiron/sqlx"
 
-	"github.com/authelia/authelia/v4/internal/model"
+	"github.com/BlackRoad-OS/authelia/v4/internal/model"
 )
 
 // ConsentPreConfigRows holds and helps with retrieving multiple model.OAuth2ConsentSession rows.

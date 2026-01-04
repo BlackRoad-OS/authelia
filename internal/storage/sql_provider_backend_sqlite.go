@@ -6,7 +6,7 @@ import (
 
 	"github.com/mattn/go-sqlite3"
 
-	"github.com/authelia/authelia/v4/internal/configuration/schema"
+	"github.com/BlackRoad-OS/authelia/v4/internal/configuration/schema"
 )
 
 // SQLiteProvider is a SQLite3 provider.

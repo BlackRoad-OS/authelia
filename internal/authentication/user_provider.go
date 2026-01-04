@@ -1,7 +1,7 @@
 package authentication
 
 import (
-	"github.com/authelia/authelia/v4/internal/model"
+	"github.com/BlackRoad-OS/authelia/v4/internal/model"
 )
 
 // UserProvider is the interface for interacting with the authentication backends.

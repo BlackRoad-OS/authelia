@@ -5,7 +5,7 @@ import (
 
 	"github.com/trustelem/zxcvbn"
 
-	"github.com/authelia/authelia/v4/internal/configuration/schema"
+	"github.com/BlackRoad-OS/authelia/v4/internal/configuration/schema"
 )
 
 // PasswordPolicyProvider represents an implementation of a password policy provider.

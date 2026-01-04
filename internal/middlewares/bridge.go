@@ -3,7 +3,7 @@ package middlewares
 import (
 	"github.com/valyala/fasthttp"
 
-	"github.com/authelia/authelia/v4/internal/configuration/schema"
+	"github.com/BlackRoad-OS/authelia/v4/internal/configuration/schema"
 )
 
 // NewBridgeBuilder creates a new BridgeBuilder.

@@ -4,8 +4,8 @@ import (
 	"context"
 	"net/mail"
 
-	"github.com/authelia/authelia/v4/internal/model"
-	"github.com/authelia/authelia/v4/internal/templates"
+	"github.com/BlackRoad-OS/authelia/v4/internal/model"
+	"github.com/BlackRoad-OS/authelia/v4/internal/templates"
 )
 
 // Notifier interface for sending the identity verification link.

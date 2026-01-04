@@ -35,7 +35,7 @@ const (
 	txtRunningSuite   = "Running suite ("
 )
 
-const fmtLDFLAGSX = "-X 'github.com/authelia/authelia/v4/internal/utils.%s=%s'"
+const fmtLDFLAGSX = "-X 'github.com/BlackRoad-OS/authelia/v4/internal/utils.%s=%s'"
 
 const (
 	cmdRootShort = "A utility used in the Authelia development process."

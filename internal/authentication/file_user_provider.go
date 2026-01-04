@@ -16,9 +16,9 @@ import (
 	"github.com/go-crypt/crypt/algorithm/scrypt"
 	"github.com/go-crypt/crypt/algorithm/shacrypt"
 
-	"github.com/authelia/authelia/v4/internal/configuration/schema"
-	"github.com/authelia/authelia/v4/internal/expression"
-	"github.com/authelia/authelia/v4/internal/logging"
+	"github.com/BlackRoad-OS/authelia/v4/internal/configuration/schema"
+	"github.com/BlackRoad-OS/authelia/v4/internal/expression"
+	"github.com/BlackRoad-OS/authelia/v4/internal/logging"
 )
 
 // FileUserProvider is a provider reading details from a file.

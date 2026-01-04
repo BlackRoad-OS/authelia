@@ -8,8 +8,8 @@ import (
 
 	"github.com/go-sql-driver/mysql"
 
-	"github.com/authelia/authelia/v4/internal/configuration/schema"
-	"github.com/authelia/authelia/v4/internal/utils"
+	"github.com/BlackRoad-OS/authelia/v4/internal/configuration/schema"
+	"github.com/BlackRoad-OS/authelia/v4/internal/utils"
 )
 
 // MySQLProvider is a MySQL provider.

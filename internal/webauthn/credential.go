@@ -3,8 +3,8 @@ package webauthn
 import (
 	"github.com/go-webauthn/webauthn/webauthn"
 
-	"github.com/authelia/authelia/v4/internal/configuration/schema"
-	"github.com/authelia/authelia/v4/internal/model"
+	"github.com/BlackRoad-OS/authelia/v4/internal/configuration/schema"
+	"github.com/BlackRoad-OS/authelia/v4/internal/model"
 )
 
 func VerifyCredential(config *schema.WebAuthn, credential *model.WebAuthnCredential, mds MetaDataProvider) (result VerifyCredentialResult) {

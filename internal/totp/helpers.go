@@ -3,7 +3,7 @@ package totp
 import (
 	"github.com/authelia/otp"
 
-	"github.com/authelia/authelia/v4/internal/configuration/schema"
+	"github.com/BlackRoad-OS/authelia/v4/internal/configuration/schema"
 )
 
 func otpStringToAlgo(in string) (algorithm otp.Algorithm) {
