@@ -1,4 +1,4 @@
-module github.com/authelia/authelia/v4
+module github.com/BlackRoad-OS/authelia/v4
 
 go 1.24.0
 

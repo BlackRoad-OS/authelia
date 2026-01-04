@@ -6,21 +6,20 @@ welcome to create or review pull requests and take part in discussions in any of
 
 It's also possible to contribute financially in order to support the community.
 
-Don't hesitate to come help us improve Authelia! See you soon!
+Don't hesitate to come help us improve BlackRoad OS Authentication Server! See you soon!
 
 ## Bug Reports and Feature Requests
 
-If you've found a **bug** or have a **feature request** then please create a
-[bug report](https://www.authelia.com/l/bug) or [feature request](https://www.authelia.com/l/fr) respectively in this
-repository (but search first in case a similar issue already exists).
+If you've found a **bug** or have a **feature request** then please create an issue in this
+repository (but search first in case a similar issue already exists). This is a fork of Authelia by BlackRoad OS, Inc.
 
 ## Code
 
 If you would like to fix a bug or implement a feature, please fork the repository and create a Pull Request.
-More information on getting set up locally can be found in the
-[Development Contribution](https://www.authelia.com/contributing/development/introduction/) documentation, in addition
-the [Contribution Guidelines](https://www.authelia.com/contributing/guidelines/introduction/) documentation includes
-several contribution guidelines.
+More information on getting set up locally can be found in the original
+[Authelia Development Contribution](https://www.authelia.com/contributing/development/introduction/) documentation. The
+[Contribution Guidelines](https://www.authelia.com/contributing/guidelines/introduction/) documentation includes
+several contribution guidelines that may still be relevant.
 
 Before you start any Pull Request, it's recommended that you create an issue to discuss first if you have any doubts
 about requirement or implementation. That way you can be sure that the maintainer(s) agree on what to change and how,

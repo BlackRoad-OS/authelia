@@ -1,5 +1,5 @@
 {
-    "name": "authelia",
+    "name": "blackroad-os-auth",
     "version": "4.39.15",
     "private": true,
     "type": "module",
