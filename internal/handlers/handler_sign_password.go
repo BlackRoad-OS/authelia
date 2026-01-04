@@ -3,9 +3,9 @@ package handlers
 import (
 	"time"
 
-	"github.com/authelia/authelia/v4/internal/middlewares"
-	"github.com/authelia/authelia/v4/internal/regulation"
-	"github.com/authelia/authelia/v4/internal/session"
+	"github.com/BlackRoad-OS/authelia/v4/internal/middlewares"
+	"github.com/BlackRoad-OS/authelia/v4/internal/regulation"
+	"github.com/BlackRoad-OS/authelia/v4/internal/session"
 )
 
 // SecondFactorPasswordPOST is the handler performing the knowledge based authentication factor after a user utilizes a

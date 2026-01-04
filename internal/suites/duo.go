@@ -10,7 +10,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/valyala/fasthttp"
 
-	"github.com/authelia/authelia/v4/internal/duo"
+	"github.com/BlackRoad-OS/authelia/v4/internal/duo"
 )
 
 // DuoPolicy a type of policy.

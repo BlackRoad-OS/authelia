@@ -7,8 +7,8 @@ import (
 
 	duoapi "github.com/duosecurity/duo_api_golang"
 
-	"github.com/authelia/authelia/v4/internal/middlewares"
-	"github.com/authelia/authelia/v4/internal/session"
+	"github.com/BlackRoad-OS/authelia/v4/internal/middlewares"
+	"github.com/BlackRoad-OS/authelia/v4/internal/session"
 )
 
 // BaseProvider describes the upstream provider we intend to utilize. Implemented by duoapi.

@@ -1,7 +1,7 @@
 package totp
 
 import (
-	"github.com/authelia/authelia/v4/internal/model"
+	"github.com/BlackRoad-OS/authelia/v4/internal/model"
 )
 
 // Provider for TOTP functionality.

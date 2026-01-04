@@ -7,8 +7,8 @@ import (
 	"net"
 	"time"
 
-	"github.com/authelia/authelia/v4/internal/configuration/schema"
-	"github.com/authelia/authelia/v4/internal/logging"
+	"github.com/BlackRoad-OS/authelia/v4/internal/configuration/schema"
+	"github.com/BlackRoad-OS/authelia/v4/internal/logging"
 )
 
 // NewProvider instantiate a ntp provider given a configuration.

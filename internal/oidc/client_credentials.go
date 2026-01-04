@@ -5,7 +5,7 @@ import (
 
 	oauthelia2 "authelia.com/provider/oauth2"
 
-	"github.com/authelia/authelia/v4/internal/configuration/schema"
+	"github.com/BlackRoad-OS/authelia/v4/internal/configuration/schema"
 )
 
 // ClientSecretDigest decorates the *schema.PasswordDigest with the relevant functions to implement oauth2.ClientSecret.

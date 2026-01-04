@@ -9,7 +9,7 @@ import (
 	"github.com/fsnotify/fsnotify"
 	"github.com/sirupsen/logrus"
 
-	"github.com/authelia/authelia/v4/internal/authentication"
+	"github.com/BlackRoad-OS/authelia/v4/internal/authentication"
 )
 
 func ProvisionUsersFileWatcher(ctx Context) (service Provider, err error) {

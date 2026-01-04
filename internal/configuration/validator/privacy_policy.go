@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/authelia/authelia/v4/internal/configuration/schema"
+	"github.com/BlackRoad-OS/authelia/v4/internal/configuration/schema"
 )
 
 // ValidatePrivacyPolicy validates and updates the Privacy Policy configuration.

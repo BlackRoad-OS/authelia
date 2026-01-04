@@ -9,9 +9,9 @@ import (
 	"github.com/go-crypt/crypt/algorithm"
 	"github.com/spf13/cobra"
 
-	"github.com/authelia/authelia/v4/internal/authentication"
-	"github.com/authelia/authelia/v4/internal/configuration"
-	"github.com/authelia/authelia/v4/internal/configuration/schema"
+	"github.com/BlackRoad-OS/authelia/v4/internal/authentication"
+	"github.com/BlackRoad-OS/authelia/v4/internal/configuration"
+	"github.com/BlackRoad-OS/authelia/v4/internal/configuration/schema"
 )
 
 func newCryptoHashCmd(ctx *CmdCtx) (cmd *cobra.Command) {

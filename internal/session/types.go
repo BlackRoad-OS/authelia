@@ -7,7 +7,7 @@ import (
 	"github.com/fasthttp/session/v2"
 	"github.com/go-webauthn/webauthn/webauthn"
 
-	"github.com/authelia/authelia/v4/internal/authorization"
+	"github.com/BlackRoad-OS/authelia/v4/internal/authorization"
 )
 
 // ProviderConfig is the configuration used to create the session provider.

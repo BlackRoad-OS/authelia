@@ -6,9 +6,9 @@ import (
 
 	"github.com/go-webauthn/webauthn/protocol"
 
-	"github.com/authelia/authelia/v4/internal/configuration/schema"
-	"github.com/authelia/authelia/v4/internal/utils"
-	"github.com/authelia/authelia/v4/internal/webauthn"
+	"github.com/BlackRoad-OS/authelia/v4/internal/configuration/schema"
+	"github.com/BlackRoad-OS/authelia/v4/internal/utils"
+	"github.com/BlackRoad-OS/authelia/v4/internal/webauthn"
 )
 
 // ValidateWebAuthn validates and updates WebAuthn configuration.

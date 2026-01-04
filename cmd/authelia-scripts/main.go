@@ -6,7 +6,7 @@ package main
 import (
 	log "github.com/sirupsen/logrus"
 
-	"github.com/authelia/authelia/v4/cmd/authelia-scripts/cmd"
+	"github.com/BlackRoad-OS/authelia/v4/cmd/authelia-scripts/cmd"
 )
 
 func main() {

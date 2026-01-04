@@ -23,8 +23,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/authelia/authelia/v4/internal/configuration/schema"
-	"github.com/authelia/authelia/v4/internal/logging"
+	"github.com/BlackRoad-OS/authelia/v4/internal/configuration/schema"
+	"github.com/BlackRoad-OS/authelia/v4/internal/logging"
 )
 
 // PEMBlockType represent an enum of the existing PEM block types.

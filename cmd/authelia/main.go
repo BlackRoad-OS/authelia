@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/authelia/authelia/v4/internal/commands"
+	"github.com/BlackRoad-OS/authelia/v4/internal/commands"
 )
 
 func main() {

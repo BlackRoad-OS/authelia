@@ -3,8 +3,8 @@ package provider
 import (
 	"crypto/x509"
 
-	"github.com/authelia/authelia/v4/internal/configuration/schema"
-	"github.com/authelia/authelia/v4/internal/notification"
+	"github.com/BlackRoad-OS/authelia/v4/internal/configuration/schema"
+	"github.com/BlackRoad-OS/authelia/v4/internal/notification"
 )
 
 // NewNotificationSMTP creates a new notification.Notifier using the *notification.SMTPNotifier given a valid

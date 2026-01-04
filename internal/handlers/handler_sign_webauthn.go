@@ -9,11 +9,11 @@ import (
 	"github.com/go-webauthn/webauthn/webauthn"
 	"github.com/valyala/fasthttp"
 
-	"github.com/authelia/authelia/v4/internal/middlewares"
-	"github.com/authelia/authelia/v4/internal/model"
-	"github.com/authelia/authelia/v4/internal/regulation"
-	"github.com/authelia/authelia/v4/internal/session"
-	iwebauthn "github.com/authelia/authelia/v4/internal/webauthn"
+	"github.com/BlackRoad-OS/authelia/v4/internal/middlewares"
+	"github.com/BlackRoad-OS/authelia/v4/internal/model"
+	"github.com/BlackRoad-OS/authelia/v4/internal/regulation"
+	"github.com/BlackRoad-OS/authelia/v4/internal/session"
+	iwebauthn "github.com/BlackRoad-OS/authelia/v4/internal/webauthn"
 )
 
 // WebAuthnAssertionGET handler starts the assertion ceremony.

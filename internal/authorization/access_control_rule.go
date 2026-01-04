@@ -1,8 +1,8 @@
 package authorization
 
 import (
-	"github.com/authelia/authelia/v4/internal/configuration/schema"
-	"github.com/authelia/authelia/v4/internal/utils"
+	"github.com/BlackRoad-OS/authelia/v4/internal/configuration/schema"
+	"github.com/BlackRoad-OS/authelia/v4/internal/utils"
 )
 
 // NewAccessControlRules converts a schema.AccessControl into an AccessControlRule slice.

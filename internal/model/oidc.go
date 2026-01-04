@@ -13,7 +13,7 @@ import (
 	oauthelia2 "authelia.com/provider/oauth2"
 	"github.com/google/uuid"
 
-	"github.com/authelia/authelia/v4/internal/utils"
+	"github.com/BlackRoad-OS/authelia/v4/internal/utils"
 )
 
 // NewOAuth2ConsentSession creates a new OAuth2ConsentSession.

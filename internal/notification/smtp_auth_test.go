@@ -8,7 +8,7 @@ import (
 	"github.com/wneessen/go-mail"
 	"github.com/wneessen/go-mail/smtp"
 
-	"github.com/authelia/authelia/v4/internal/configuration/schema"
+	"github.com/BlackRoad-OS/authelia/v4/internal/configuration/schema"
 )
 
 func TestNewOpportunisticSMTPAuth(t *testing.T) {

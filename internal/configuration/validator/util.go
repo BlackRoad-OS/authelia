@@ -12,10 +12,10 @@ import (
 	"github.com/go-jose/go-jose/v4"
 	"github.com/weppos/publicsuffix-go/publicsuffix"
 
-	"github.com/authelia/authelia/v4/internal/configuration/schema"
-	"github.com/authelia/authelia/v4/internal/expression"
-	"github.com/authelia/authelia/v4/internal/oidc"
-	"github.com/authelia/authelia/v4/internal/utils"
+	"github.com/BlackRoad-OS/authelia/v4/internal/configuration/schema"
+	"github.com/BlackRoad-OS/authelia/v4/internal/expression"
+	"github.com/BlackRoad-OS/authelia/v4/internal/oidc"
+	"github.com/BlackRoad-OS/authelia/v4/internal/utils"
 )
 
 func isUserAttributeDefinitionNameValid(attribute string, config *schema.Configuration) bool {
