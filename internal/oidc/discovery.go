@@ -1,7 +1,7 @@
 package oidc
 
 import (
-	"github.com/authelia/authelia/v4/internal/configuration/schema"
+	"github.com/BlackRoad-OS/authelia/v4/internal/configuration/schema"
 )
 
 // NewOpenIDConnectWellKnownConfiguration generates a new OpenIDConnectWellKnownConfiguration.

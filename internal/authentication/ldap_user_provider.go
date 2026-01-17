@@ -12,10 +12,10 @@ import (
 	"github.com/sirupsen/logrus"
 	"golang.org/x/text/language"
 
-	"github.com/authelia/authelia/v4/internal/clock"
-	"github.com/authelia/authelia/v4/internal/configuration/schema"
-	"github.com/authelia/authelia/v4/internal/logging"
-	"github.com/authelia/authelia/v4/internal/utils"
+	"github.com/BlackRoad-OS/authelia/v4/internal/clock"
+	"github.com/BlackRoad-OS/authelia/v4/internal/configuration/schema"
+	"github.com/BlackRoad-OS/authelia/v4/internal/logging"
+	"github.com/BlackRoad-OS/authelia/v4/internal/utils"
 )
 
 // LDAPUserProvider is a UserProvider that connects to LDAP servers like ActiveDirectory, OpenLDAP, OpenDJ, FreeIPA, etc.

@@ -7,11 +7,11 @@ import (
 
 	oauthelia2 "authelia.com/provider/oauth2"
 
-	"github.com/authelia/authelia/v4/internal/authentication"
-	"github.com/authelia/authelia/v4/internal/middlewares"
-	"github.com/authelia/authelia/v4/internal/model"
-	"github.com/authelia/authelia/v4/internal/oidc"
-	"github.com/authelia/authelia/v4/internal/session"
+	"github.com/BlackRoad-OS/authelia/v4/internal/authentication"
+	"github.com/BlackRoad-OS/authelia/v4/internal/middlewares"
+	"github.com/BlackRoad-OS/authelia/v4/internal/model"
+	"github.com/BlackRoad-OS/authelia/v4/internal/oidc"
+	"github.com/BlackRoad-OS/authelia/v4/internal/session"
 )
 
 // OAuth2AuthorizationGET handles GET/POST requests to the OpenID Connect 1.0 Authorization endpoint.

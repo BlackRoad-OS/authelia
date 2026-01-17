@@ -5,8 +5,8 @@ import (
 
 	"github.com/valyala/fasthttp"
 
-	"github.com/authelia/authelia/v4/internal/configuration/schema"
-	"github.com/authelia/authelia/v4/internal/model"
+	"github.com/BlackRoad-OS/authelia/v4/internal/configuration/schema"
+	"github.com/BlackRoad-OS/authelia/v4/internal/model"
 )
 
 // NewAuthzBuilder creates a new AuthzBuilder.

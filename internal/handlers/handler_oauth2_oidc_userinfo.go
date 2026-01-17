@@ -13,8 +13,8 @@ import (
 	"github.com/google/uuid"
 	"github.com/valyala/fasthttp"
 
-	"github.com/authelia/authelia/v4/internal/middlewares"
-	"github.com/authelia/authelia/v4/internal/oidc"
+	"github.com/BlackRoad-OS/authelia/v4/internal/middlewares"
+	"github.com/BlackRoad-OS/authelia/v4/internal/oidc"
 )
 
 // OpenIDConnectUserinfo handles GET/POST requests to the OpenID Connect 1.0 UserInfo endpoint.

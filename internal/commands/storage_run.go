@@ -22,16 +22,16 @@ import (
 	"github.com/spf13/cobra"
 	"go.yaml.in/yaml/v4"
 
-	"github.com/authelia/authelia/v4/internal/clock"
-	"github.com/authelia/authelia/v4/internal/configuration/schema"
-	"github.com/authelia/authelia/v4/internal/configuration/validator"
-	"github.com/authelia/authelia/v4/internal/model"
-	"github.com/authelia/authelia/v4/internal/random"
-	"github.com/authelia/authelia/v4/internal/regulation"
-	"github.com/authelia/authelia/v4/internal/storage"
-	"github.com/authelia/authelia/v4/internal/totp"
-	"github.com/authelia/authelia/v4/internal/utils"
-	"github.com/authelia/authelia/v4/internal/webauthn"
+	"github.com/BlackRoad-OS/authelia/v4/internal/clock"
+	"github.com/BlackRoad-OS/authelia/v4/internal/configuration/schema"
+	"github.com/BlackRoad-OS/authelia/v4/internal/configuration/validator"
+	"github.com/BlackRoad-OS/authelia/v4/internal/model"
+	"github.com/BlackRoad-OS/authelia/v4/internal/random"
+	"github.com/BlackRoad-OS/authelia/v4/internal/regulation"
+	"github.com/BlackRoad-OS/authelia/v4/internal/storage"
+	"github.com/BlackRoad-OS/authelia/v4/internal/totp"
+	"github.com/BlackRoad-OS/authelia/v4/internal/utils"
+	"github.com/BlackRoad-OS/authelia/v4/internal/webauthn"
 )
 
 // LoadProvidersStorageRunE is a special PreRunE that loads the storage provider into the CmdCtx.

@@ -7,8 +7,8 @@ import (
 	"github.com/authelia/otp"
 	"github.com/authelia/otp/totp"
 
-	"github.com/authelia/authelia/v4/internal/configuration/schema"
-	"github.com/authelia/authelia/v4/internal/model"
+	"github.com/BlackRoad-OS/authelia/v4/internal/configuration/schema"
+	"github.com/BlackRoad-OS/authelia/v4/internal/model"
 )
 
 // NewTimeBasedProvider creates a new totp.TimeBased which implements the totp.Provider.

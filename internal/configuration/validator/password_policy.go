@@ -4,8 +4,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/authelia/authelia/v4/internal/configuration/schema"
-	"github.com/authelia/authelia/v4/internal/utils"
+	"github.com/BlackRoad-OS/authelia/v4/internal/configuration/schema"
+	"github.com/BlackRoad-OS/authelia/v4/internal/utils"
 )
 
 // ValidatePasswordPolicy validates and updates the Password Policy configuration.

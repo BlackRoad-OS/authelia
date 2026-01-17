@@ -11,10 +11,10 @@ import (
 	"github.com/go-crypt/crypt/algorithm/scrypt"
 	"github.com/go-crypt/crypt/algorithm/shacrypt"
 
-	"github.com/authelia/authelia/v4/internal/authentication"
-	"github.com/authelia/authelia/v4/internal/configuration/schema"
-	"github.com/authelia/authelia/v4/internal/expression"
-	"github.com/authelia/authelia/v4/internal/utils"
+	"github.com/BlackRoad-OS/authelia/v4/internal/authentication"
+	"github.com/BlackRoad-OS/authelia/v4/internal/configuration/schema"
+	"github.com/BlackRoad-OS/authelia/v4/internal/expression"
+	"github.com/BlackRoad-OS/authelia/v4/internal/utils"
 )
 
 // ValidateAuthenticationBackend validates and updates the authentication backend configuration.

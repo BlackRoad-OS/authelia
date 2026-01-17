@@ -5,7 +5,7 @@ import (
 
 	"github.com/valyala/fasthttp"
 
-	"github.com/authelia/authelia/v4/internal/oidc"
+	"github.com/BlackRoad-OS/authelia/v4/internal/oidc"
 )
 
 const (

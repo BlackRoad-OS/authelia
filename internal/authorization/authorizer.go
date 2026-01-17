@@ -3,8 +3,8 @@ package authorization
 import (
 	"github.com/sirupsen/logrus"
 
-	"github.com/authelia/authelia/v4/internal/configuration/schema"
-	"github.com/authelia/authelia/v4/internal/logging"
+	"github.com/BlackRoad-OS/authelia/v4/internal/configuration/schema"
+	"github.com/BlackRoad-OS/authelia/v4/internal/logging"
 )
 
 // Authorizer the component in charge of checking whether a user can access a given resource.

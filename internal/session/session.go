@@ -7,7 +7,7 @@ import (
 	"github.com/fasthttp/session/v2"
 	"github.com/valyala/fasthttp"
 
-	"github.com/authelia/authelia/v4/internal/configuration/schema"
+	"github.com/BlackRoad-OS/authelia/v4/internal/configuration/schema"
 )
 
 // Session a session provider.

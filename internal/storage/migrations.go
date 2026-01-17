@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/authelia/authelia/v4/internal/model"
+	"github.com/BlackRoad-OS/authelia/v4/internal/model"
 )
 
 //go:embed migrations/*

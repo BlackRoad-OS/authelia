@@ -6,11 +6,11 @@ import (
 
 	oauthelia2 "authelia.com/provider/oauth2"
 
-	"github.com/authelia/authelia/v4/internal/authentication"
-	"github.com/authelia/authelia/v4/internal/middlewares"
-	"github.com/authelia/authelia/v4/internal/model"
-	"github.com/authelia/authelia/v4/internal/oidc"
-	"github.com/authelia/authelia/v4/internal/session"
+	"github.com/BlackRoad-OS/authelia/v4/internal/authentication"
+	"github.com/BlackRoad-OS/authelia/v4/internal/middlewares"
+	"github.com/BlackRoad-OS/authelia/v4/internal/model"
+	"github.com/BlackRoad-OS/authelia/v4/internal/oidc"
+	"github.com/BlackRoad-OS/authelia/v4/internal/session"
 )
 
 func handleOAuth2AuthorizationClaims(ctx *middlewares.AutheliaCtx, rw http.ResponseWriter, _ *http.Request, flow string, userSession session.UserSession, details *authentication.UserDetailsExtended, client oidc.Client, requester oauthelia2.Requester, issuer *url.URL, consent *model.OAuth2ConsentSession, extra map[string]any) (requests *oidc.ClaimsRequests, handled bool) {

@@ -15,9 +15,9 @@ import (
 	"github.com/jmoiron/sqlx"
 	"github.com/sirupsen/logrus"
 
-	"github.com/authelia/authelia/v4/internal/configuration/schema"
-	"github.com/authelia/authelia/v4/internal/logging"
-	"github.com/authelia/authelia/v4/internal/model"
+	"github.com/BlackRoad-OS/authelia/v4/internal/configuration/schema"
+	"github.com/BlackRoad-OS/authelia/v4/internal/logging"
+	"github.com/BlackRoad-OS/authelia/v4/internal/model"
 )
 
 // NewProvider dynamically initializes a storage.Provider given a *schema.Configuration and *x509.CertPool.

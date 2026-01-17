@@ -16,9 +16,9 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 
-	"github.com/authelia/authelia/v4/internal/configuration/schema"
-	"github.com/authelia/authelia/v4/internal/random"
-	"github.com/authelia/authelia/v4/internal/templates"
+	"github.com/BlackRoad-OS/authelia/v4/internal/configuration/schema"
+	"github.com/BlackRoad-OS/authelia/v4/internal/random"
+	"github.com/BlackRoad-OS/authelia/v4/internal/templates"
 )
 
 func TestNewSMTPNotifier(t *testing.T) {

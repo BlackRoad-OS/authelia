@@ -13,8 +13,8 @@ import (
 	"go.yaml.in/yaml/v4"
 	"golang.org/x/text/language"
 
-	"github.com/authelia/authelia/v4/internal/configuration/schema"
-	"github.com/authelia/authelia/v4/internal/expression"
+	"github.com/BlackRoad-OS/authelia/v4/internal/configuration/schema"
+	"github.com/BlackRoad-OS/authelia/v4/internal/expression"
 )
 
 type FileUserProviderDatabase interface {

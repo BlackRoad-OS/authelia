@@ -4,10 +4,10 @@ import (
 	"errors"
 	"time"
 
-	"github.com/authelia/authelia/v4/internal/authentication"
-	"github.com/authelia/authelia/v4/internal/middlewares"
-	"github.com/authelia/authelia/v4/internal/regulation"
-	"github.com/authelia/authelia/v4/internal/session"
+	"github.com/BlackRoad-OS/authelia/v4/internal/authentication"
+	"github.com/BlackRoad-OS/authelia/v4/internal/middlewares"
+	"github.com/BlackRoad-OS/authelia/v4/internal/regulation"
+	"github.com/BlackRoad-OS/authelia/v4/internal/session"
 )
 
 // FirstFactorPasswordPOST is the handler performing the first factor authn with a password.

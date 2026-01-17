@@ -5,7 +5,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/authelia/authelia/v4/internal/configuration/schema"
+	"github.com/BlackRoad-OS/authelia/v4/internal/configuration/schema"
 )
 
 // ValidateTLSConfig sets the default values and validates a schema.TLS.

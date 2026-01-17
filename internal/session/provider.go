@@ -6,8 +6,8 @@ import (
 
 	"github.com/fasthttp/session/v2"
 
-	"github.com/authelia/authelia/v4/internal/configuration/schema"
-	"github.com/authelia/authelia/v4/internal/logging"
+	"github.com/BlackRoad-OS/authelia/v4/internal/configuration/schema"
+	"github.com/BlackRoad-OS/authelia/v4/internal/logging"
 )
 
 // Provider contains a list of domain sessions.

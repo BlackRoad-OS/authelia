@@ -4,10 +4,10 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/authelia/authelia/v4/internal/authentication"
-	"github.com/authelia/authelia/v4/internal/middlewares"
-	"github.com/authelia/authelia/v4/internal/session"
-	"github.com/authelia/authelia/v4/internal/templates"
+	"github.com/BlackRoad-OS/authelia/v4/internal/authentication"
+	"github.com/BlackRoad-OS/authelia/v4/internal/middlewares"
+	"github.com/BlackRoad-OS/authelia/v4/internal/session"
+	"github.com/BlackRoad-OS/authelia/v4/internal/templates"
 )
 
 func ChangePasswordPOST(ctx *middlewares.AutheliaCtx) {

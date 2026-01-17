@@ -10,9 +10,9 @@ import (
 	"authelia.com/provider/oauth2/x/errorsx"
 	"github.com/go-jose/go-jose/v4"
 
-	"github.com/authelia/authelia/v4/internal/authentication"
-	"github.com/authelia/authelia/v4/internal/authorization"
-	"github.com/authelia/authelia/v4/internal/configuration/schema"
+	"github.com/BlackRoad-OS/authelia/v4/internal/authentication"
+	"github.com/BlackRoad-OS/authelia/v4/internal/authorization"
+	"github.com/BlackRoad-OS/authelia/v4/internal/configuration/schema"
 )
 
 // NewClient creates a new Client.

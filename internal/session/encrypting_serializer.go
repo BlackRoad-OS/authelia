@@ -6,7 +6,7 @@ import (
 
 	"github.com/fasthttp/session/v2"
 
-	"github.com/authelia/authelia/v4/internal/utils"
+	"github.com/BlackRoad-OS/authelia/v4/internal/utils"
 )
 
 // Serializer is a function that can serialize session information.

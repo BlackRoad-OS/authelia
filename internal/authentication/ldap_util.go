@@ -8,7 +8,7 @@ import (
 
 	"github.com/go-ldap/ldap/v3"
 
-	"github.com/authelia/authelia/v4/internal/configuration/schema"
+	"github.com/BlackRoad-OS/authelia/v4/internal/configuration/schema"
 )
 
 func ldapEntriesContainsEntry(needle *ldap.Entry, haystack []*ldap.Entry) bool {

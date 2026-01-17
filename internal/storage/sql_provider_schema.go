@@ -9,8 +9,8 @@ import (
 
 	"github.com/jmoiron/sqlx"
 
-	"github.com/authelia/authelia/v4/internal/model"
-	"github.com/authelia/authelia/v4/internal/utils"
+	"github.com/BlackRoad-OS/authelia/v4/internal/model"
+	"github.com/BlackRoad-OS/authelia/v4/internal/utils"
 )
 
 // SchemaTables returns a list of tables from the storage provider.

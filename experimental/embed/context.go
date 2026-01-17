@@ -6,9 +6,9 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/authelia/authelia/v4/experimental/embed/provider"
-	"github.com/authelia/authelia/v4/internal/configuration/schema"
-	"github.com/authelia/authelia/v4/internal/middlewares"
+	"github.com/BlackRoad-OS/authelia/v4/experimental/embed/provider"
+	"github.com/BlackRoad-OS/authelia/v4/internal/configuration/schema"
+	"github.com/BlackRoad-OS/authelia/v4/internal/middlewares"
 )
 
 // New creates a new instance of the embedded Authelia context. This can later be used with embed.ServiceRunAll.

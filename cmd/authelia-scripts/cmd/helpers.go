@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/authelia/authelia/v4/internal/utils"
+	"github.com/BlackRoad-OS/authelia/v4/internal/utils"
 )
 
 func getBuild(branch, buildNumber, extra string) (b *Build, err error) {

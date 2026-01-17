@@ -6,8 +6,8 @@ import (
 	oauthelia2 "authelia.com/provider/oauth2"
 	"github.com/google/uuid"
 
-	"github.com/authelia/authelia/v4/internal/middlewares"
-	"github.com/authelia/authelia/v4/internal/oidc"
+	"github.com/BlackRoad-OS/authelia/v4/internal/middlewares"
+	"github.com/BlackRoad-OS/authelia/v4/internal/oidc"
 )
 
 // OAuth2IntrospectionPOST handles POST requests to the OAuth 2.0 Introspection endpoint.

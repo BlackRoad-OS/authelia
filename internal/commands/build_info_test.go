@@ -26,7 +26,7 @@ func TestRunBuildInfo(t *testing.T) {
 		},
 	}
 
-	r := regexp.MustCompile(`^Last Tag: (v\d+\.\d+\.\d+|unknown)\nState: (tagged|untagged) (clean|dirty)\nBranch: [^\s\n]+\nCommit: ([0-9a-f]{40}|unknown)\nBuild Number: \d+\nBuild OS: (linux|darwin|windows|freebsd)\nBuild Arch: (amd64|arm|arm64)\nBuild Compiler: gc\nBuild Date: \nDevelopment: (true|false)\nExtra: \n\nGo:\n\s+Version: go\d+\.\d+\.\d+\n\s+Module Path: github.com/authelia/authelia/v4\n\s+Executable Path: github.com/authelia/authelia/v4/internal/commands.test`)
+	r := regexp.MustCompile(`^Last Tag: (v\d+\.\d+\.\d+|unknown)\nState: (tagged|untagged) (clean|dirty)\nBranch: [^\s\n]+\nCommit: ([0-9a-f]{40}|unknown)\nBuild Number: \d+\nBuild OS: (linux|darwin|windows|freebsd)\nBuild Arch: (amd64|arm|arm64)\nBuild Compiler: gc\nBuild Date: \nDevelopment: (true|false)\nExtra: \n\nGo:\n\s+Version: go\d+\.\d+\.\d+\n\s+Module Path: github.com/BlackRoad-OS/authelia/v4\n\s+Executable Path: github.com/BlackRoad-OS/authelia/v4/internal/commands.test`)
 
 	for _, tc := range testCases {
 		t.Run(tc.name, func(t *testing.T) {

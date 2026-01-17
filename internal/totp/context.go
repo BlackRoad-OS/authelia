@@ -3,8 +3,8 @@ package totp
 import (
 	"context"
 
-	"github.com/authelia/authelia/v4/internal/clock"
-	"github.com/authelia/authelia/v4/internal/random"
+	"github.com/BlackRoad-OS/authelia/v4/internal/clock"
+	"github.com/BlackRoad-OS/authelia/v4/internal/random"
 )
 
 type Context interface {

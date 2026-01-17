@@ -1,20 +1,22 @@
 ---
 cff-version: 1.2.0
 type: software
-title: Authelia
+title: BlackRoad OS Authentication Server
 license: Apache-2.0
 commit: 5a6e840e6f3f6b171ee05ce29e1c7cc2f3787ea4
 version: v4.39.14
 date-released: '2025-10-27'
-repository-code: 'https://github.com/authelia/authelia/'
-url: 'https://www.authelia.com/'
+repository-code: 'https://github.com/BlackRoad-OS/authelia/'
+url: 'https://github.com/BlackRoad-OS/authelia'
 abstract: >-
-  The Single Sign-On Multi-Factor portal for web apps, now
-  OpenID Certified™
+  BlackRoad OS, Inc. native authentication and authorization server
+  based on Authelia - The Single Sign-On Multi-Factor portal for web apps
 message: >-
   If you use this software, please cite it using the
   metadata from this file.
 authors:
+  - given-names: BlackRoad OS
+    family-names: Inc.
   - orcid: 'https://orcid.org/0009-0000-4673-5510'
     given-names: James
     family-names: Elliott

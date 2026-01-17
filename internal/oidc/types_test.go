@@ -13,12 +13,12 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/authelia/authelia/v4/internal/clock"
-	"github.com/authelia/authelia/v4/internal/configuration/schema"
-	"github.com/authelia/authelia/v4/internal/expression"
-	"github.com/authelia/authelia/v4/internal/model"
-	"github.com/authelia/authelia/v4/internal/oidc"
-	"github.com/authelia/authelia/v4/internal/random"
+	"github.com/BlackRoad-OS/authelia/v4/internal/clock"
+	"github.com/BlackRoad-OS/authelia/v4/internal/configuration/schema"
+	"github.com/BlackRoad-OS/authelia/v4/internal/expression"
+	"github.com/BlackRoad-OS/authelia/v4/internal/model"
+	"github.com/BlackRoad-OS/authelia/v4/internal/oidc"
+	"github.com/BlackRoad-OS/authelia/v4/internal/random"
 )
 
 func TestNewSession(t *testing.T) {

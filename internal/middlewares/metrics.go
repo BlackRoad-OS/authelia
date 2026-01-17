@@ -7,7 +7,7 @@ import (
 
 	"github.com/valyala/fasthttp"
 
-	"github.com/authelia/authelia/v4/internal/metrics"
+	"github.com/BlackRoad-OS/authelia/v4/internal/metrics"
 )
 
 // NewMetricsRequest returns a middleware if provided with a metrics.Recorder, otherwise it returns nil.
